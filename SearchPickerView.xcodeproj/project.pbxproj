@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B1C1E7B25D321DE00828369 /* SamplePickerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1C1E7A25D321DE00828369 /* SamplePickerDataSource.swift */; };
 		9BA187A725CF56DA009C3A92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA187A625CF56DA009C3A92 /* AppDelegate.swift */; };
 		9BA187A925CF56DA009C3A92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA187A825CF56DA009C3A92 /* SceneDelegate.swift */; };
 		9BA187AB25CF56DA009C3A92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA187AA25CF56DA009C3A92 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B1C1E7A25D321DE00828369 /* SamplePickerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePickerDataSource.swift; sourceTree = "<group>"; };
 		9BA187A325CF56DA009C3A92 /* SearchPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA187A625CF56DA009C3A92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BA187A825CF56DA009C3A92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B1C1E7925D321B900828369 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				9B1C1E7A25D321DE00828369 /* SamplePickerDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
 		9BA1879A25CF56D9009C3A92 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		9BA187A525CF56DA009C3A92 /* SearchPickerView */ = {
 			isa = PBXGroup;
 			children = (
+				9B1C1E7925D321B900828369 /* DataSource */,
 				9BA187A625CF56DA009C3A92 /* AppDelegate.swift */,
 				9BA187A825CF56DA009C3A92 /* SceneDelegate.swift */,
 				9BA187AA25CF56DA009C3A92 /* ViewController.swift */,
@@ -260,6 +271,7 @@
 			files = (
 				9BA187AB25CF56DA009C3A92 /* ViewController.swift in Sources */,
 				9BA187A725CF56DA009C3A92 /* AppDelegate.swift in Sources */,
+				9B1C1E7B25D321DE00828369 /* SamplePickerDataSource.swift in Sources */,
 				9BA187A925CF56DA009C3A92 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
