@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B20B3EE69BBC75C730D9702 /* Pods_SearchPickerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8700E0A11C7C81D6ABB4020 /* Pods_SearchPickerView.framework */; };
+		3C0C154D225C3ADAD4324E07 /* Pods_SearchPickerViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A20F90220305F23FA09AE47 /* Pods_SearchPickerViewTests.framework */; };
+		742DC1E91C73DF685ACC2383 /* Pods_SearchPickerView_SearchPickerViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACCE6360B92519DDEC016B1 /* Pods_SearchPickerView_SearchPickerViewUITests.framework */; };
 		9B1C1E7B25D321DE00828369 /* SamplePickerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1C1E7A25D321DE00828369 /* SamplePickerDataSource.swift */; };
 		9BA187A725CF56DA009C3A92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA187A625CF56DA009C3A92 /* AppDelegate.swift */; };
 		9BA187A925CF56DA009C3A92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA187A825CF56DA009C3A92 /* SceneDelegate.swift */; };
@@ -36,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01B991DC428CB4BDB31DFB31 /* Pods-SearchPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchPickerView.debug.xcconfig"; path = "Target Support Files/Pods-SearchPickerView/Pods-SearchPickerView.debug.xcconfig"; sourceTree = "<group>"; };
+		1B70B34B091AC3018A640623 /* Pods-SearchPickerViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchPickerViewTests.debug.xcconfig"; path = "Target Support Files/Pods-SearchPickerViewTests/Pods-SearchPickerViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D46430FB10F909EBE670F31 /* Pods-SearchPickerViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchPickerViewTests.release.xcconfig"; path = "Target Support Files/Pods-SearchPickerViewTests/Pods-SearchPickerViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		53E453E9FD72F44C011C0E65 /* Pods-SearchPickerView-SearchPickerViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchPickerView-SearchPickerViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-SearchPickerView-SearchPickerViewUITests/Pods-SearchPickerView-SearchPickerViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A20F90220305F23FA09AE47 /* Pods_SearchPickerViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchPickerViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEB09002E9B33C01996C3A0 /* Pods-SearchPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchPickerView.release.xcconfig"; path = "Target Support Files/Pods-SearchPickerView/Pods-SearchPickerView.release.xcconfig"; sourceTree = "<group>"; };
 		9B1C1E7A25D321DE00828369 /* SamplePickerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePickerDataSource.swift; sourceTree = "<group>"; };
 		9BA187A325CF56DA009C3A92 /* SearchPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA187A625CF56DA009C3A92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +60,9 @@
 		9BA187C425CF56DF009C3A92 /* SearchPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA187C825CF56DF009C3A92 /* SearchPickerViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPickerViewUITests.swift; sourceTree = "<group>"; };
 		9BA187CA25CF56DF009C3A92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5E2734DFB6EF4B318999AD2 /* Pods-SearchPickerView-SearchPickerViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchPickerView-SearchPickerViewUITests.release.xcconfig"; path = "Target Support Files/Pods-SearchPickerView-SearchPickerViewUITests/Pods-SearchPickerView-SearchPickerViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B8700E0A11C7C81D6ABB4020 /* Pods_SearchPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BACCE6360B92519DDEC016B1 /* Pods_SearchPickerView_SearchPickerViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchPickerView_SearchPickerViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B20B3EE69BBC75C730D9702 /* Pods_SearchPickerView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C0C154D225C3ADAD4324E07 /* Pods_SearchPickerViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				742DC1E91C73DF685ACC2383 /* Pods_SearchPickerView_SearchPickerViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14557C4CE02BBF19DBC3F215 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01B991DC428CB4BDB31DFB31 /* Pods-SearchPickerView.debug.xcconfig */,
+				8FEB09002E9B33C01996C3A0 /* Pods-SearchPickerView.release.xcconfig */,
+				53E453E9FD72F44C011C0E65 /* Pods-SearchPickerView-SearchPickerViewUITests.debug.xcconfig */,
+				B5E2734DFB6EF4B318999AD2 /* Pods-SearchPickerView-SearchPickerViewUITests.release.xcconfig */,
+				1B70B34B091AC3018A640623 /* Pods-SearchPickerViewTests.debug.xcconfig */,
+				1D46430FB10F909EBE670F31 /* Pods-SearchPickerViewTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		98F81106C8FFA215812801CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8700E0A11C7C81D6ABB4020 /* Pods_SearchPickerView.framework */,
+				BACCE6360B92519DDEC016B1 /* Pods_SearchPickerView_SearchPickerViewUITests.framework */,
+				6A20F90220305F23FA09AE47 /* Pods_SearchPickerViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9B1C1E7925D321B900828369 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +132,8 @@
 				9BA187BC25CF56DF009C3A92 /* SearchPickerViewTests */,
 				9BA187C725CF56DF009C3A92 /* SearchPickerViewUITests */,
 				9BA187A425CF56DA009C3A92 /* Products */,
+				14557C4CE02BBF19DBC3F215 /* Pods */,
+				98F81106C8FFA215812801CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BA187CD25CF56DF009C3A92 /* Build configuration list for PBXNativeTarget "SearchPickerView" */;
 			buildPhases = (
+				C90C8D5B9E3C92611D5773A8 /* [CP] Check Pods Manifest.lock */,
 				9BA1879F25CF56DA009C3A92 /* Sources */,
 				9BA187A025CF56DA009C3A92 /* Frameworks */,
 				9BA187A125CF56DA009C3A92 /* Resources */,
+				DB7243DB18DF1DD367A538C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BA187D025CF56DF009C3A92 /* Build configuration list for PBXNativeTarget "SearchPickerViewTests" */;
 			buildPhases = (
+				1E47978478AC9313FDBC23C0 /* [CP] Check Pods Manifest.lock */,
 				9BA187B525CF56DF009C3A92 /* Sources */,
 				9BA187B625CF56DF009C3A92 /* Frameworks */,
 				9BA187B725CF56DF009C3A92 /* Resources */,
@@ -181,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BA187D325CF56DF009C3A92 /* Build configuration list for PBXNativeTarget "SearchPickerViewUITests" */;
 			buildPhases = (
+				2C760C8F95D1A3700433EDEC /* [CP] Check Pods Manifest.lock */,
 				9BA187C025CF56DF009C3A92 /* Sources */,
 				9BA187C125CF56DF009C3A92 /* Frameworks */,
 				9BA187C225CF56DF009C3A92 /* Resources */,
+				3B0624AF7F7AC91FE0076E4D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,6 +309,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E47978478AC9313FDBC23C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SearchPickerViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C760C8F95D1A3700433EDEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SearchPickerView-SearchPickerViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B0624AF7F7AC91FE0076E4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SearchPickerView-SearchPickerViewUITests/Pods-SearchPickerView-SearchPickerViewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SearchPickerView-SearchPickerViewUITests/Pods-SearchPickerView-SearchPickerViewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SearchPickerView-SearchPickerViewUITests/Pods-SearchPickerView-SearchPickerViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C90C8D5B9E3C92611D5773A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SearchPickerView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB7243DB18DF1DD367A538C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SearchPickerView/Pods-SearchPickerView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SearchPickerView/Pods-SearchPickerView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SearchPickerView/Pods-SearchPickerView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9BA1879F25CF56DA009C3A92 /* Sources */ = {
@@ -445,6 +594,7 @@
 		};
 		9BA187CE25CF56DF009C3A92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B991DC428CB4BDB31DFB31 /* Pods-SearchPickerView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +614,7 @@
 		};
 		9BA187CF25CF56DF009C3A92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FEB09002E9B33C01996C3A0 /* Pods-SearchPickerView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -483,6 +634,7 @@
 		};
 		9BA187D125CF56DF009C3A92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B70B34B091AC3018A640623 /* Pods-SearchPickerViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +657,7 @@
 		};
 		9BA187D225CF56DF009C3A92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D46430FB10F909EBE670F31 /* Pods-SearchPickerViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -527,6 +680,7 @@
 		};
 		9BA187D425CF56DF009C3A92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E453E9FD72F44C011C0E65 /* Pods-SearchPickerView-SearchPickerViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,6 +701,7 @@
 		};
 		9BA187D525CF56DF009C3A92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E2734DFB6EF4B318999AD2 /* Pods-SearchPickerView-SearchPickerViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
