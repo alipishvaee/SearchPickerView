@@ -1,0 +1,6 @@
+framework module Pods_SearchPickerViewTests {
+  umbrella header "Pods-SearchPickerViewTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
