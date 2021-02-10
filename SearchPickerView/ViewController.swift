@@ -32,7 +32,7 @@ class ViewController: UIViewController {
 extension ViewController: SamplePickerDSDelegate {
     func didSelectName(name: String) {
         DispatchQueue.main.async {
-            print("name")
+            self.nameTextField.text = name
         }
     }
 }
