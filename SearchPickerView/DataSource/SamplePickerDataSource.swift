@@ -6,14 +6,15 @@
 //
 
 import UIKit
-
-protocol SamplePickerDSDelegate: class {
-    func didSelectName(name: String)
-}
+import RxSwift
+import RxCocoa
 
 class SamplePickerDataSource: NSObject, UIPickerViewDelegate, UIPickerViewDataSource {
-    var delegate: SamplePickerDSDelegate!
+    
     let nameList = ["Ali", "Bob", "John", "Sam", "Sara", "Andrew", "Abraham", "George", "Donald", "Stacy", "Brian", "Joseph"]
+    
+    let selectedName = PublishSubject<String>()
+    
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
@@ -29,7 +30,7 @@ class SamplePickerDataSource: NSObject, UIPickerViewDelegate, UIPickerViewDataSo
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         let name = nameList[row]
-        delegate.didSelectName(name: name)
+        selectedName.onNext(name)
     }
     
 }
